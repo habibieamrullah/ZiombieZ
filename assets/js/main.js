@@ -152,7 +152,7 @@ ZKGame.Blue = {
 		ruinbg.width = game.width;
 		ruinbg.height = ruinbg.width / (tempRbgWidth / tempRbgHeight);
 		
-		aboutText = game.add.text(game.width/2, game.height/2 - (25 * gameScaleRatio), "Coded by Habibie at ZofiaKreasi.com", {font: "18px Arial", fill: "#fff"});
+		aboutText = game.add.text(game.width/2, game.height/2 - (25 * gameScaleRatio), "Coded by Habibie - habibie.ciihuy.com", {font: "18px Arial", fill: "#fff"});
 		aboutText.anchor.setTo(.5, .5);
 		
 		backText = game.add.text(game.width/2, game.height/2 + (25 * gameScaleRatio), "Back", {fill : "#fff"});
